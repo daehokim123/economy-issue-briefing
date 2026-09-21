@@ -1,514 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "wlubtld15a");
-    </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5CZZ936JFN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5CZZ936JFN');
-</script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global Economy Analytics Hub</title>
-  <meta name="google-adsense-account" content="ca-pub-2318911583209270">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2318911583209270"
-     crossorigin="anonymous"></script>
+  <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","wlubtld15a");</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5CZZ936JFN"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-5CZZ936JFN');</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="글로벌 경제 이슈를 핵심 결론, 한국 영향, 확인할 지표와 함께 쉽게 설명하는 경제 브리핑입니다.">
+  <meta name="theme-color" content="#0b1220">
+  <title>GEA Brief | 오늘의 경제를 판단에 필요한 맥락으로</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-  <nav class="navbar">
+<body class="brief-home">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <nav class="navbar" aria-label="주요 메뉴">
     <div class="nav-container">
-      <a href="#" class="nav-logo">GEA Hub</a>
-      <ul class="nav-links">
-        <li><a href="#daily-issue">오늘의이슈</a></li>
-        <li><a href="#expert">전문가분석</a></li>
-        <li><a href="#data">실시간데이터</a></li>
-        <li><a href="#weekly">주간요약</a></li>
+      <a class="nav-logo" href="index.html" aria-label="GEA Brief 홈"><span class="logo-mark">G</span><span>GEA Brief</span></a>
+      <button class="mobile-menu" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">메뉴</button>
+      <ul class="nav-links" id="primaryNav">
+        <li><a href="#briefing">오늘의 브리핑</a></li>
+        <li><a href="#impact">한국 영향</a></li>
+        <li><a href="#calendar">경제 일정</a></li>
+        <li><a href="articles.html">리포트</a></li>
+        <li><a href="glossary.html">용어집</a></li>
       </ul>
-      <button id="modeToggle" class="mode-toggle" aria-label="다크 모드 토글">☀️</button>
+      <button id="modeToggle" class="mode-toggle" aria-label="화면 테마 변경">☀</button>
     </div>
   </nav>
 
-  <main class="container">
-    <header class="hub-header">
-      <h1>Global Economy Analytics Hub</h1>
-      <p>글로벌 거시 경제 데이터와 전문가 인사이트를 실시간으로 분석합니다.</p>
+  <main id="main">
+    <header class="brief-hero">
+      <div class="brief-shell hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">경제 뉴스보다 중요한 것은 연결입니다</p>
+          <h1>오늘의 경제를<br><span>판단에 필요한 맥락</span>으로</h1>
+          <p class="hero-lead">무슨 일이 있었는지, 왜 중요한지, 한국의 생활과 자산에 어떤 영향을 줄 수 있는지 5분 안에 정리합니다.</p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#briefing">오늘 브리핑 읽기</a>
+            <a class="secondary-link" href="#how-to-read">경제 읽는 법 보기</a>
+          </div>
+          <div class="trust-line"><span>광고성 종목 추천 없음</span><span>사실과 해석 구분</span><span>확인 지표 제공</span></div>
+        </div>
+        <aside class="hero-summary" aria-label="오늘의 한줄 결론">
+          <div class="summary-top"><span class="live-dot"></span><span id="todayLabel">오늘의 브리핑</span></div>
+          <p class="summary-label">오늘의 한줄 결론</p>
+          <h2>금리, 달러, 수요의 방향을 함께 봐야 시장의 움직임을 오해하지 않습니다.</h2>
+          <div class="summary-divider"></div>
+          <dl class="signal-list">
+            <div><dt>금리</dt><dd>물가와 고용의 균형 확인</dd></div>
+            <div><dt>환율</dt><dd>달러 방향과 외국인 수급 연결</dd></div>
+            <div><dt>한국</dt><dd>반도체 수출과 내수 온도차 주목</dd></div>
+          </dl>
+        </aside>
+      </div>
     </header>
 
-    <!-- 1️⃣ 오늘의 이슈 (Daily) -->
-    <section id="daily-issue" class="info-section">
-      <div class="section-header">
-        <h2>1️⃣ 오늘의 이슈 (Daily)</h2>
-        <div class="archive-selector">
-          <select id="dailyDateSelector" aria-label="이전 이슈 선택">
-            <option value="latest">최신 이슈 보기</option>
-            <!-- Dates will be populated by JS -->
-          </select>
-        </div>
-      </div>
-      <div id="dailyContent">
-        <!-- Dynamic Content -->
+    <section class="quick-nav" aria-label="이 페이지에서 얻는 정보">
+      <div class="brief-shell quick-grid">
+        <a href="#briefing"><b>01</b><span><strong>핵심 이슈</strong>무슨 일이 있었나</span></a>
+        <a href="#impact"><b>02</b><span><strong>한국 영향</strong>생활과 자산의 변화</span></a>
+        <a href="#calendar"><b>03</b><span><strong>체크 일정</strong>다음 변수는 무엇인가</span></a>
+        <a href="#indicators"><b>04</b><span><strong>지표 해석</strong>숫자를 어떻게 읽나</span></a>
       </div>
     </section>
 
-    <!-- 2️⃣ 주요 경제 학습 자료 (Weekly) -->
-    <section id="expert" class="info-section">
-      <h2>2️⃣ 주요 경제 학습 자료 (Weekly)</h2>
-      <div class="expert-grid">
-        <a href="learning.html" class="expert-card" style="text-decoration: none; display: block; cursor: pointer; transition: transform 0.2s;">
-          <div class="expert-header">
-            <h3>거시경제 핵심 강의 정리</h3>
-            <span class="tag">Lecture Summary</span>
-          </div>
-          <p>"최근 글로벌 금리 사이클과 인플레이션의 상관관계를 분석한 전문가 강의 내용을 요약했습니다. 부채 사이클의 임계점과 신흥국 시장의 대응 전략을 학습할 수 있습니다."</p>
-        </a>
-        <a href="learning.html" class="expert-card" style="text-decoration: none; display: block; cursor: pointer; transition: transform 0.2s;">
-          <div class="expert-header">
-            <h3>금융시장 트렌드 분석</h3>
-            <span class="tag">New Insight</span>
-          </div>
-          <p>"디지털 자산의 제도화와 실물자산 토큰화(RWA)의 미래를 다룬 심층 강의 요약입니다. 변화하는 금융 패러다임에 따른 자산 배분 전략을 정리했습니다."</p>
-        </a>
+    <section id="briefing" class="section-block brief-shell">
+      <div class="section-heading">
+        <div><p class="section-kicker">Daily Briefing</p><h2>오늘 반드시 알아야 할 3가지</h2><p>사실, 의미, 다음 확인 포인트를 분리해 과도한 해석을 줄였습니다.</p></div>
+        <div class="topic-filter" role="group" aria-label="이슈 필터">
+          <button class="filter-chip active" data-filter="all">전체</button><button class="filter-chip" data-filter="rates">금리·물가</button><button class="filter-chip" data-filter="trade">산업·무역</button><button class="filter-chip" data-filter="fx">환율</button>
+        </div>
       </div>
+      <div class="lead-story issue-card" data-topic="rates">
+        <div class="story-rank">핵심 01</div>
+        <div class="story-body"><div class="story-meta"><span>금리·물가</span><span>읽는 시간 2분</span></div><h3>금리 기대가 바뀔 때는 주가보다 채권과 달러를 먼저 확인하세요</h3><p class="story-intro">중앙은행의 결정은 한 번의 물가 발표보다 물가, 고용, 소비의 추세에 좌우됩니다. 시장 반응이 커도 정책 방향이 실제로 바뀌었는지는 별도로 확인해야 합니다.</p><div class="story-columns"><div><span class="mini-label">왜 중요한가</span><p>금리 기대는 대출 이자, 기업 가치평가, 달러와 성장주의 가격에 동시에 영향을 줍니다.</p></div><div><span class="mini-label">다음 확인</span><p>근원물가, 신규 고용, 국채 2년물 금리가 같은 방향으로 움직이는지 보세요.</p></div></div></div>
+        <aside class="takeaway"><span>판단 포인트</span><strong>지표 하나보다 3개월 추세</strong><p>발표 직후의 가격 반응과 실제 경제 방향을 구분해야 합니다.</p></aside>
+      </div>
+      <div class="issue-grid">
+        <article class="issue-card compact-card" data-topic="trade"><div class="story-rank">핵심 02</div><div class="story-meta"><span>산업·무역</span></div><h3>공급망 재편은 국가보다 기업의 매출 지역을 봐야 합니다</h3><p>정책 수혜 여부는 본사 위치보다 생산 거점, 고객 구성, 보조금 조건에 따라 달라집니다.</p><ul class="check-list"><li>반도체·배터리 투자 계획</li><li>중국 매출 의존도</li><li>관세와 현지 생산 요건</li></ul></article>
+        <article class="issue-card compact-card" data-topic="fx"><div class="story-rank">핵심 03</div><div class="story-meta"><span>환율</span></div><h3>원화 약세는 수출기업 호재로만 볼 수 없습니다</h3><p>매출 환산에는 유리할 수 있지만 원자재 비용, 외화부채, 외국인 수급 부담이 함께 커질 수 있습니다.</p><ul class="check-list"><li>달러 인덱스 방향</li><li>한국 경상수지</li><li>한미 금리 차와 외국인 수급</li></ul></article>
+      </div>
+      <p class="editor-note"><strong>편집 원칙:</strong> 위 콘텐츠는 경제 이슈를 읽는 구조를 보여주는 해설형 브리핑입니다. 실제 수치와 정책 판단은 각 기관의 최신 원문을 함께 확인하세요.</p>
     </section>
 
-    <!-- 3️⃣ 실시간 데이터 -->
-    <section id="data" class="info-section">
-      <h2>3️⃣ 실시간 데이터</h2>
-      
-      <div class="data-group">
-        <h3>🌍 국가별 주요 지수</h3>
-        <div class="market-grid">
-          <div class="market-box">
-            <h4>🇺🇸 미국</h4>
-            <div class="market-data">
-              <div class="data-row up"><span>S&P 500</span> <strong>5,420.15 (+0.8%)</strong></div>
-              <div class="data-row down"><span>NASDAQ</span> <strong>17,850.44 (-0.3%)</strong></div>
-              <div class="data-row up"><span>DOW</span> <strong>39,120.50 (+0.5%)</strong></div>
-            </div>
-          </div>
-          <div class="market-box">
-            <h4>🇨🇳 중국</h4>
-            <div class="market-data">
-              <div class="data-row up"><span>상해종합</span> <strong>3,050.22 (+1.1%)</strong></div>
-              <div class="data-row up"><span>항셍</span> <strong>18,200.45 (+1.5%)</strong></div>
-            </div>
-          </div>
-          <div class="market-box">
-            <h4>🇯🇵 일본</h4>
-            <div class="market-data">
-              <div class="data-row down"><span>Nikkei 225</span> <strong>38,700.12 (-0.4%)</strong></div>
-            </div>
-          </div>
-          <div class="market-box">
-            <h4>🇪🇺 유럽</h4>
-            <div class="market-data">
-              <div class="data-row up"><span>Euro Stoxx 50</span> <strong>4,980.50 (+0.6%)</strong></div>
-              <div class="data-row down"><span>DAX (독일)</span> <strong>18,100.20 (-0.2%)</strong></div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section id="impact" class="section-block impact-section"><div class="brief-shell"><div class="section-heading"><div><p class="section-kicker">Korea Impact Map</p><h2>글로벌 이슈가 한국에 오는 경로</h2><p>뉴스를 생활, 기업, 자산시장으로 연결합니다.</p></div></div><div class="impact-grid">
+      <article><span class="impact-icon">₩</span><h3>생활 물가</h3><p>원화 약세와 유가 상승은 수입 단가를 통해 식품, 교통, 공공요금 부담으로 이어질 수 있습니다.</p><b>볼 지표</b><span>원/달러, 두바이유, 수입물가지수</span></article>
+      <article><span class="impact-icon">▦</span><h3>기업 실적</h3><p>수출 회복이 모든 기업에 같은 효과를 주지는 않습니다. 업종별 가격과 물량을 나눠 봐야 합니다.</p><b>볼 지표</b><span>일평균 수출, 반도체 가격, 재고</span></article>
+      <article><span class="impact-icon">⌂</span><h3>대출·부동산</h3><p>기준금리보다 실제 대출금리를 움직이는 은행채와 가산금리 변화가 체감 부담에 더 직접적입니다.</p><b>볼 지표</b><span>은행채 5년, 가계대출, 거래량</span></article>
+      <article><span class="impact-icon">↗</span><h3>주식·환율</h3><p>외국인 수급은 기업 이익뿐 아니라 달러, 글로벌 위험선호, 반도체 사이클의 영향을 함께 받습니다.</p><b>볼 지표</b><span>외국인 순매수, DXY, 수출 전망</span></article>
+    </div></div></section>
 
-      <div class="data-group" style="margin-top: 32px;">
-        <h3>📊 주요 시장 지표</h3>
-        <div class="market-grid">
-          <div class="indicator-item">
-            <span>🥇 금 (Gold)</span>
-            <strong class="up">$2,350.40 (+0.4%)</strong>
-          </div>
-          <div class="indicator-item">
-            <span>🛢️ 유가 (WTI)</span>
-            <strong class="down">$78.20 (-1.2%)</strong>
-          </div>
-          <div class="indicator-item">
-            <span>💵 환율 (USD/KRW)</span>
-            <strong class="up">1,375.50 (+0.2%)</strong>
-          </div>
-          <div class="indicator-item">
-            <span>💧 리플 (XRP/Upbit)</span>
-            <strong id="xrpPriceDisplay" class="up">로딩 중...</strong>
-          </div>
-          <div class="indicator-item">
-            <span>📉 달러 인덱스</span>
-            <strong class="down">104.50 (-0.1%)</strong>
-          </div>
-          <div class="indicator-item">
-            <span>🪙 비트코인 (Upbit)</span>
-            <strong id="btcPriceDisplay" class="up">로딩 중...</strong>
-          </div>
-        </div>
-      </div>
+    <section id="calendar" class="section-block brief-shell"><div class="section-heading split"><div><p class="section-kicker">Weekly Watch</p><h2>이번 주 경제 체크리스트</h2><p>발표 전에는 예상 경로를, 발표 후에는 시장 해석의 변화를 확인하세요.</p></div><button class="reset-checks" id="resetChecks">체크 초기화</button></div><div class="calendar-layout"><div class="calendar-list">
+      <label class="calendar-item"><input type="checkbox" data-check="inflation"><span class="date-badge">물가</span><span><strong>미국·한국 물가 흐름</strong><small>헤드라인보다 근원 서비스 물가와 전월 대비 변화 확인</small></span></label>
+      <label class="calendar-item"><input type="checkbox" data-check="jobs"><span class="date-badge">고용</span><span><strong>고용과 임금</strong><small>신규 고용, 실업률, 임금이 서로 같은 방향인지 확인</small></span></label>
+      <label class="calendar-item"><input type="checkbox" data-check="exports"><span class="date-badge">수출</span><span><strong>한국 수출과 반도체</strong><small>총액보다 일평균 수출, 단가, 지역별 수요를 구분</small></span></label>
+      <label class="calendar-item"><input type="checkbox" data-check="centralbank"><span class="date-badge">정책</span><span><strong>중앙은행 발언과 의사록</strong><small>한 문장보다 위원 간 의견 분포와 조건 변화를 확인</small></span></label>
+    </div><aside class="calendar-guide"><p class="mini-label">발표를 보는 3단계</p><ol><li><b>예상 대비</b><span>시장 전망보다 높았나 낮았나</span></li><li><b>세부 구성</b><span>일시적 요인인가 추세인가</span></li><li><b>가격 반응</b><span>채권, 달러, 주식이 같은 해석인가</span></li></ol></aside></div></section>
 
-      <div class="data-group" style="margin-top: 32px;">
-        <h3>💰 Flare Network 기반 XRPFi 수익률</h3>
-        <div class="table-wrapper">
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th>플랫폼 / 방식</th>
-                <th>대상 자산</th>
-                <th>예상 APY</th>
-                <th>설명</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="asset-name"><strong>Firelight (Liquid Staking)</strong></td>
-                <td>fXRP (stXRP)</td>
-                <td><span class="apy-badge">7.0% ~ 12.0%</span></td>
-                <td>XRP를 fXRP로 변환 후 스테이킹하여 보상 획득</td>
-              </tr>
-              <tr>
-                <td class="asset-name"><strong>Kinetic (Lending)</strong></td>
-                <td>fXRP / FLR</td>
-                <td><span class="apy-badge">3.0% ~ 8.0%</span></td>
-                <td>자산 대출을 통한 이자 수익 및 인센티브 보상</td>
-              </tr>
-              <tr>
-                <td class="asset-name"><strong>Sparkdex (LP)</strong></td>
-                <td>fXRP / stXRP</td>
-                <td><span class="apy-badge">12.0% ~ 25.0%+</span></td>
-                <td>fXRP와 stXRP 유동성 공급을 통한 거래 수수료 및 보상</td>
-              </tr>
-              <tr>
-                <td class="asset-name"><strong>Enosys (LP)</strong></td>
-                <td>fXRP / USDT0</td>
-                <td><span class="apy-badge">15.0% ~ 30.0%+</span></td>
-                <td>유동성 공급을 통한 거래 수수료 및 보상 획득</td>
-              </tr>
-              <tr>
-                <td class="asset-name"><strong>FTSO Delegation</strong></td>
-                <td>WFLR</td>
-                <td><span class="apy-badge">약 7.0% ~ 10.0%</span></td>
-                <td>Flare 네트워크 데이터 제공 위임 보상 (안전 자산)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="ai-analysis" style="margin-top: 16px;">
-          <strong>💡 XRPFi 핵심 전략:</strong> XRP 홀더는 Flare 네트워크에서 **fXRP**를 활용해 단순 보유 이상의 수익을 창출할 수 있습니다. 특히 **Firelight**를 통한 리퀴드 스테이킹(stXRP)은 자산의 유동성을 유지하면서도 수익을 극대화할 수 있는 핵심 전략입니다.
-        </div>
-      </div>
-    </section>
+    <section id="indicators" class="section-block indicator-section"><div class="brief-shell"><div class="section-heading"><div><p class="section-kicker">Indicator Guide</p><h2>숫자보다 방향을 읽는 시장 대시보드</h2><p>출처 없는 실시간 숫자 대신, 무엇을 어디서 확인하고 어떻게 해석할지 제공합니다.</p></div></div><div class="indicator-grid">
+      <a href="https://ecos.bok.or.kr" target="_blank" rel="noopener"><span>한국은행 ECOS</span><h3>금리·환율·통화</h3><p>한국 기준금리, 시장금리, 환율과 통화량의 공식 시계열</p><b>공식 데이터 열기 →</b></a>
+      <a href="https://kosis.kr" target="_blank" rel="noopener"><span>국가통계포털</span><h3>물가·고용·산업</h3><p>소비자물가, 고용률, 산업생산과 가계 관련 통계</p><b>공식 데이터 열기 →</b></a>
+      <a href="https://fred.stlouisfed.org" target="_blank" rel="noopener"><span>FRED</span><h3>미국 거시지표</h3><p>미국 금리, 물가, 고용, 경기 관련 장기 시계열</p><b>공식 데이터 열기 →</b></a>
+      <a href="https://www.bls.gov" target="_blank" rel="noopener"><span>U.S. BLS</span><h3>미국 물가·고용 원문</h3><p>CPI와 고용보고서의 세부 항목 및 발표 자료</p><b>공식 데이터 열기 →</b></a>
+    </div></div></section>
 
-    <!-- 4️⃣ 주간 요약 (1x/주) -->
-    <section id="weekly" class="info-section">
-      <div class="section-header">
-        <h2>4️⃣ 주간 요약 (1x/주)</h2>
-        <div class="archive-selector">
-          <select id="weeklyDateSelector" aria-label="이전 요약 선택">
-            <option value="latest">최신 요약 보기</option>
-            <!-- Dates will be populated by JS -->
-          </select>
-        </div>
-      </div>
-      <div id="weeklyContent">
-        <!-- Dynamic Content -->
-      </div>
-    </section>
+    <section id="how-to-read" class="section-block brief-shell learn-section"><div class="learn-head"><p class="section-kicker">Economy Starter</p><h2>경제 뉴스를 읽는 가장 쉬운 순서</h2></div><div class="steps-grid">
+      <article><b>1</b><h3>사실을 찾기</h3><p>누가, 무엇을, 언제 발표했는지 확인합니다.</p></article><article><b>2</b><h3>예상과 비교</h3><p>좋고 나쁨보다 시장 예상과의 차이를 봅니다.</p></article><article><b>3</b><h3>영향 경로 연결</h3><p>금리, 환율, 기업 실적 중 어디로 전달되는지 봅니다.</p></article><article><b>4</b><h3>반대 근거 확인</h3><p>내 해석이 틀릴 수 있는 조건을 한 가지 적습니다.</p></article>
+    </div><div class="content-cta"><div><span>더 깊이 공부하고 싶다면</span><h3>용어부터 자산 배분까지 단계별 자료를 확인하세요.</h3></div><div><a class="secondary-link" href="learning.html">학습 자료</a><a class="primary-link" href="articles.html">심층 리포트</a></div></div></section>
 
-    <section class="contact-section">
-      <h2>🤝 제휴 및 비즈니스 문의</h2>
-      <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnjwjlny" method="POST">
-        <div class="form-group">
-          <label for="name">성함/업체명</label>
-          <input type="text" id="name" name="name" placeholder="예: 홍길동" required>
-        </div>
-        <div class="form-group">
-          <label for="email">이메일 주소</label>
-          <input type="email" id="email" name="email" placeholder="example@email.com" required>
-        </div>
-        <div class="form-group">
-          <label for="message">문의 내용</label>
-          <textarea id="message" name="message" rows="4" placeholder="문의하실 내용을 입력해 주세요." required></textarea>
-        </div>
-        <button type="submit" class="submit-btn">문의 보내기</button>
-      </form>
-    </section>
-
-    <section class="comments-section" style="margin-top: 40px; padding-top: 32px; border-top: 1px dashed var(--container-border);">
-      <div id="disqus_thread"></div>
-      <script>
-          (function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://productbuilder-f98wrz4nfr.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-          })();
-      </script>
-    </section>
-
-    <footer class="footer">
-      <p>&copy; 2026 Global Economy Analytics Hub. Created by KDH</p>
-    </footer>
+    <section class="principles-section"><div class="brief-shell principles-grid"><div><p class="section-kicker">Editorial Standard</p><h2>신뢰할 수 있는 경제 정보의 기준</h2></div><ul><li><b>사실과 해석을 구분합니다.</b><span>공식 발표 내용과 편집자의 해석을 같은 문장에 섞지 않습니다.</span></li><li><b>수치에는 출처와 기준 시점을 붙입니다.</b><span>확인되지 않은 숫자를 실시간 데이터처럼 표시하지 않습니다.</span></li><li><b>단정 대신 조건을 설명합니다.</b><span>전망이 달라질 수 있는 반대 시나리오와 다음 확인 지표를 제시합니다.</span></li></ul></div></section>
   </main>
-
+  <footer class="site-footer"><div class="brief-shell footer-grid"><div><a class="nav-logo" href="index.html"><span class="logo-mark">G</span><span>GEA Brief</span></a><p>복잡한 경제를 더 나은 판단으로 연결합니다.</p></div><div class="footer-links"><a href="about.html">소개</a><a href="articles.html">리포트</a><a href="glossary.html">용어집</a><a href="contact.html">문의</a><a href="privacy.html">개인정보처리방침</a></div></div><div class="brief-shell footer-bottom"><span>© 2026 GEA Brief</span><span>본 콘텐츠는 일반 정보이며 투자 권유가 아닙니다.</span></div></footer>
   <script src="script.js"></script>
-</body>
-</html>
-# 프로젝트 폴더로 이동
-cd "/Users/kimdaeho/Desktop/무제 폴더"
-
-# 원본 백업
-cp index.html index.html.bak
-
-# privacy.html 생성
-cat > privacy.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>개인정보처리방침 - Global Economy Analytics Hub</title>
-  <meta name="description" content="Global Economy Analytics Hub의 개인정보처리방침입니다.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>개인정보처리방침</h1>
-    <p>수집 항목, 이용 목적, 보관 기간 및 연락처 정보를 제공합니다.</p>
-    <p>문의: example@domain.com</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# about.html 생성
-cat > about.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>소개 - Global Economy Analytics Hub</title>
-  <meta name="description" content="Global Economy Analytics Hub 소개 페이지입니다.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>소개</h1>
-    <p>글로벌 거시경제 데이터와 전문가 인사이트를 제공하는 사이트입니다.</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# contact.html 생성 (선택)
-cat > contact.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>문의 - Global Economy Analytics Hub</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>문의</h1>
-    <p>이메일: example@domain.com</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# ads.txt 예시 (배포 도메인 루트에 올릴 파일)
-cat > ads.txt <<'TEXT'
-google.com, pub-2318911583209270, DIRECT, f08c47fec0942fa0
-TEXT
-
-# VS Code로 열기 (code 명령이 설정되어 있으면)
-code .
-
-# 로컬 서버 실행 (간단 확인용)
-python3 -m http.server 8000
-
-# 또는 npx serve 사용
-# npx serve -l 8000
-
-# 브라우저 자동 오픈 (다른 터미널에서 실행하거나 서버 실행 후)
-open http://localhost:8000# 프로젝트 폴더로 이동
-cd "/Users/kimdaeho/Desktop/무제 폴더"
-
-# 원본 백업
-cp index.html index.html.bak
-
-# privacy.html 생성
-cat > privacy.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>개인정보처리방침 - Global Economy Analytics Hub</title>
-  <meta name="description" content="Global Economy Analytics Hub의 개인정보처리방침입니다.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>개인정보처리방침</h1>
-    <p>수집 항목, 이용 목적, 보관 기간 및 연락처 정보를 제공합니다.</p>
-    <p>문의: example@domain.com</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# about.html 생성
-cat > about.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>소개 - Global Economy Analytics Hub</title>
-  <meta name="description" content="Global Economy Analytics Hub 소개 페이지입니다.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>소개</h1>
-    <p>글로벌 거시경제 데이터와 전문가 인사이트를 제공하는 사이트입니다.</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# contact.html 생성 (선택)
-cat > contact.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>문의 - Global Economy Analytics Hub</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>문의</h1>
-    <p>이메일: example@domain.com</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# ads.txt 예시 (배포 도메인 루트에 올릴 파일)
-cat > ads.txt <<'TEXT'
-google.com, pub-2318911583209270, DIRECT, f08c47fec0942fa0
-TEXT
-
-# VS Code로 열기 (code 명령이 설정되어 있으면)
-code .
-
-# 로컬 서버 실행 (간단 확인용)
-python3 -m http.server 8000
-
-# 또는 npx serve 사용
-# npx serve -l 8000
-
-# 브라우저 자동 오픈 (다른 터미널에서 실행하거나 서버 실행 후)
-open http://localhost:8000# 프로젝트 폴더로 이동
-cd "/Users/kimdaeho/Desktop/무제 폴더"
-
-# 원본 백업
-cp index.html index.html.bak
-
-# privacy.html 생성
-cat > privacy.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>개인정보처리방침 - Global Economy Analytics Hub</title>
-  <meta name="description" content="Global Economy Analytics Hub의 개인정보처리방침입니다.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>개인정보처리방침</h1>
-    <p>수집 항목, 이용 목적, 보관 기간 및 연락처 정보를 제공합니다.</p>
-    <p>문의: example@domain.com</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# about.html 생성
-cat > about.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>소개 - Global Economy Analytics Hub</title>
-  <meta name="description" content="Global Economy Analytics Hub 소개 페이지입니다.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>소개</h1>
-    <p>글로벌 거시경제 데이터와 전문가 인사이트를 제공하는 사이트입니다.</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# contact.html 생성 (선택)
-cat > contact.html <<'HTML'
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>문의 - Global Economy Analytics Hub</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="container">
-    <h1>문의</h1>
-    <p>이메일: example@domain.com</p>
-    <p><a href="index.html">홈</a></p>
-  </main>
-</body>
-</html>
-HTML
-
-# ads.txt 예시 (배포 도메인 루트에 올릴 파일)
-cat > ads.txt <<'TEXT'
-google.com, pub-2318911583209270, DIRECT, f08c47fec0942fa0
-TEXT
-
-# VS Code로 열기 (code 명령이 설정되어 있으면)
-code .
-
-# 로컬 서버 실행 (간단 확인용)
-python3 -m http.server 8000
-
-# 또는 npx serve 사용
-# npx serve -l 8000
-
-# 브라우저 자동 오픈 (다른 터미널에서 실행하거나 서버 실행 후)
-open http://localhost:8000
+</body></html>
