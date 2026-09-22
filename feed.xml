@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GEA Brief 글로벌·한국 경제 브리핑</title>
+    <link>https://daehokim123.github.io/economy-issue-briefing/</link>
+    <description>글로벌 경제와 한국 경제의 핵심 이슈, 영향, 다음 확인 지표를 정리합니다.</description>
+    <language>ko-KR</language>
+    <lastBuildDate>Tue, 22 Sep 2026 06:00:00 +0900</lastBuildDate>
+    <atom:link href="https://daehokim123.github.io/economy-issue-briefing/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>미국 금리 인상·고유가·한국 반도체 수출, 오늘의 경제 연결고리</title>
+      <link>https://daehokim123.github.io/economy-issue-briefing/briefing-2026-09-22.html</link>
+      <guid isPermaLink="true">https://daehokim123.github.io/economy-issue-briefing/briefing-2026-09-22.html</guid>
+      <pubDate>Tue, 22 Sep 2026 06:00:00 +0900</pubDate>
+      <description><![CDATA[연준 금리 인상, 브렌트유 100달러대 공급 충격, 한국 금리와 반도체 수출을 연결해 정리합니다.]]></description>
+    </item>
+    <item>
+      <title>한국 수출 사이클을 읽는 세 가지 지표</title>
+      <link>https://daehokim123.github.io/economy-issue-briefing/report-korea-export.html</link>
+      <guid isPermaLink="true">https://daehokim123.github.io/economy-issue-briefing/report-korea-export.html</guid>
+      <pubDate>Mon, 04 May 2026 09:00:00 +0900</pubDate>
+      <description><![CDATA[반도체 가격, 환율, 중국 수요로 한국 수출 사이클을 해석합니다.]]></description>
+    </item>
+    <item>
+      <title>원/달러 환율이 생활과 자산에 미치는 영향</title>
+      <link>https://daehokim123.github.io/economy-issue-briefing/report-fx-risk.html</link>
+      <guid isPermaLink="true">https://daehokim123.github.io/economy-issue-briefing/report-fx-risk.html</guid>
+      <pubDate>Mon, 04 May 2026 09:00:00 +0900</pubDate>
+      <description><![CDATA[환율 상승이 물가, 기업 실적, 해외 투자에 전달되는 경로를 설명합니다.]]></description>
+    </item>
+  </channel>
+</rss>
