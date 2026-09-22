@@ -1,0 +1,45 @@
+{
+  "observedAt": "2026-09-22T15:10:26.723Z",
+  "source": "CoinGecko",
+  "assets": [
+    {
+      "id": "bitcoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "priceUsd": 86276,
+      "priceKrw": 117264060,
+      "change24h": 0.09488,
+      "volume24hUsd": 47492532568,
+      "marketCapUsd": 1732841730856,
+      "rank": 1
+    },
+    {
+      "id": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "priceUsd": 2745.68,
+      "priceKrw": 3731249,
+      "change24h": -0.06865,
+      "volume24hUsd": 19246534609,
+      "marketCapUsd": 335011538889,
+      "rank": 2
+    },
+    {
+      "id": "ripple",
+      "symbol": "XRP",
+      "name": "XRP",
+      "priceUsd": 1.57,
+      "priceKrw": 2135.33,
+      "change24h": 4.16783,
+      "volume24hUsd": 6218620610,
+      "marketCapUsd": 98572851539,
+      "rank": 5
+    }
+  ],
+  "market": {
+    "totalMarketCapUsd": 2937877858578.3525,
+    "totalVolume24hUsd": 131397091996.37218,
+    "btcDominance": 58.890511772969326,
+    "marketCapChange24h": -2.139411311227104
+  }
+}
