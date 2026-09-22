@@ -1,45 +1,56 @@
 {
-  "observedAt": "2026-09-22T15:10:26.723Z",
+  "version": 1,
+  "updatedAt": "2026-09-22T21:00:00.000Z",
+  "observedAt": "2026-09-22T20:59:40.000Z",
   "source": "CoinGecko",
   "assets": [
     {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "priceUsd": 86276,
-      "priceKrw": 117264060,
-      "change24h": 0.09488,
-      "volume24hUsd": 47492532568,
-      "marketCapUsd": 1732841730856,
-      "rank": 1
+      "priceUsd": 86268,
+      "priceKrw": 116744498,
+      "change24h": -0.67402,
+      "volume24hUsd": 44062143210,
+      "marketCapUsd": 1732175903187,
+      "rank": 1,
+      "change24hKrw": -2.1140153090611666,
+      "volume24hKrw": 59555671439516.8,
+      "marketCapKrw": 2345300124515522.5
     },
     {
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "priceUsd": 2745.68,
-      "priceKrw": 3731249,
-      "change24h": -0.06865,
-      "volume24hUsd": 19246534609,
-      "marketCapUsd": 335011538889,
-      "rank": 2
+      "priceUsd": 2750.94,
+      "priceKrw": 3722791,
+      "change24h": -0.94538,
+      "volume24hUsd": 16408087979,
+      "marketCapUsd": 335695580091,
+      "rank": 2,
+      "change24hKrw": -2.381448622841166,
+      "volume24hKrw": 22198181638915.04,
+      "marketCapKrw": 454488920457629.25
     },
     {
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
       "priceUsd": 1.57,
-      "priceKrw": 2135.33,
-      "change24h": 4.16783,
-      "volume24hUsd": 6218620610,
-      "marketCapUsd": 98572851539,
-      "rank": 5
+      "priceKrw": 2127.84,
+      "change24h": 2.80495,
+      "volume24hUsd": 6504159391,
+      "marketCapUsd": 98734235046,
+      "rank": 5,
+      "change24hKrw": 1.3145149074845919,
+      "volume24hKrw": 8813320193845.85,
+      "marketCapKrw": 133813255806485.34
     }
   ],
   "market": {
-    "totalMarketCapUsd": 2937877858578.3525,
-    "totalVolume24hUsd": 131397091996.37218,
-    "btcDominance": 58.890511772969326,
-    "marketCapChange24h": -2.139411311227104
+    "totalMarketCapUsd": 2932951711895.2847,
+    "totalVolume24hUsd": 122653868866.08032,
+    "btcDominance": 58.83537037623891,
+    "marketCapChange24h": -3.1947886390520353
   }
 }

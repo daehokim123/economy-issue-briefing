@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-09-22T15:10:26.723Z",
+  "updatedAt": "2026-09-22T21:00:00.000Z",
   "articles": [
+    {
+      "date": "2026-09-23",
+      "title": "비트코인 ETF 유입과 규제 전환",
+      "url": "crypto-intelligence-2026-09-23.html",
+      "category": "Crypto Intelligence"
+    },
     {
       "date": "2026-09-22",
       "title": "금리 인상 이후 암호화폐 시장, BTC·ETH·XRP를 함께 보는 법",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T15:10:26.723Z",
+  "updatedAt": "2026-09-22T21:00:00.000Z",
   "snapshots": [
     {
       "observedAt": "2026-09-22T15:10:26.723Z",
@@ -46,11 +46,66 @@
         "btcDominance": 58.890511772969326,
         "marketCapChange24h": -2.139411311227104
       }
+    },
+    {
+      "observedAt": "2026-09-22T20:59:40.000Z",
+      "source": "CoinGecko",
+      "assets": [
+        {
+          "id": "bitcoin",
+          "symbol": "BTC",
+          "name": "Bitcoin",
+          "priceUsd": 86268,
+          "priceKrw": 116744498,
+          "change24h": -0.67402,
+          "volume24hUsd": 44062143210,
+          "marketCapUsd": 1732175903187,
+          "rank": 1,
+          "change24hKrw": -2.1140153090611666,
+          "volume24hKrw": 59555671439516.8,
+          "marketCapKrw": 2345300124515522.5
+        },
+        {
+          "id": "ethereum",
+          "symbol": "ETH",
+          "name": "Ethereum",
+          "priceUsd": 2750.94,
+          "priceKrw": 3722791,
+          "change24h": -0.94538,
+          "volume24hUsd": 16408087979,
+          "marketCapUsd": 335695580091,
+          "rank": 2,
+          "change24hKrw": -2.381448622841166,
+          "volume24hKrw": 22198181638915.04,
+          "marketCapKrw": 454488920457629.25
+        },
+        {
+          "id": "ripple",
+          "symbol": "XRP",
+          "name": "XRP",
+          "priceUsd": 1.57,
+          "priceKrw": 2127.84,
+          "change24h": 2.80495,
+          "volume24hUsd": 6504159391,
+          "marketCapUsd": 98734235046,
+          "rank": 5,
+          "change24hKrw": 1.3145149074845919,
+          "volume24hKrw": 8813320193845.85,
+          "marketCapKrw": 133813255806485.34
+        }
+      ],
+      "market": {
+        "totalMarketCapUsd": 2932951711895.2847,
+        "totalVolume24hUsd": 122653868866.08032,
+        "btcDominance": 58.83537037623891,
+        "marketCapChange24h": -3.1947886390520353
+      }
     }
   ],
   "macroContext": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "usPolicyRate": "3.75~4.00%",
+    "japanPolicyRate": "1.25%",
     "koreaBaseRate": "3.00%",
     "brentUsd": 105,
     "usdKrw": 1356.15,
@@ -61,86 +116,85 @@
         "direction": "긴축"
       },
       {
-        "label": "원/달러",
-        "value": "1,356.15원",
-        "direction": "달러 강세 점검"
+        "label": "일본 금리",
+        "value": "1.25%",
+        "direction": "정상화"
       },
       {
-        "label": "브렌트유",
-        "value": "105달러",
-        "direction": "물가 압력"
+        "label": "원/달러",
+        "value": "1,356.15원",
+        "direction": "달러 강도 점검"
       },
       {
         "label": "BTC 점유율",
-        "value": "58.9%",
+        "value": "58.84%",
         "direction": "시장 집중도"
       }
     ]
   },
   "issues": [
     {
-      "category": "규제",
-      "title": "SEC의 암호자산 맞춤 공시 규정 제안",
-      "fact": "미 의회조사국에 따르면 SEC는 2026년 8월 암호자산 발행과 공시를 위한 Regulation Crypto Assets를 제안했습니다.",
-      "interpretation": "발행사 공시 기준이 명확해지면 제도권 진입 비용과 투자자 보호 기준이 동시에 구체화될 수 있습니다.",
-      "scenario": "최종 규정과 의회 시장구조 법안의 관할 기준이 어떻게 조정되는지가 거래소와 프로젝트의 핵심 변수입니다.",
+      "category": "기관·ETF",
+      "title": "현물 ETF 순유입 재개와 레버리지 동반 증가",
+      "fact": "주요 매체 집계에 따르면 미국 현물 비트코인 ETF는 9월 18일 4억3300만달러, 9월 21일 6억1760만달러 순유입을 기록했습니다. 선물 미결제약정도 약 20억달러 늘었습니다.",
+      "interpretation": "현물 수요는 가격 하단을 지지할 수 있지만 레버리지 확대는 청산 변동성을 키울 수 있습니다.",
+      "scenario": "ETF 순유입과 현물 거래량이 이어지면 반등이 연장될 수 있습니다. 국채금리 상승과 ETF 유출이 겹치면 레버리지 축소가 하락을 증폭할 수 있습니다.",
+      "assets": [
+        "BTC",
+        "ETH",
+        "파생시장"
+      ],
+      "sourceTitle": "Economic Times, 2026-09-22",
+      "sourceUrl": "https://m.economictimes.com/markets/cryptocurrency/bitcoin-jumps-nearly-5-to-cross-85000-as-strong-etf-inflows-and-institutional-buying-boost-crypto-momentum/articleshow/134406404.cms"
+    },
+    {
+      "category": "미국 규제",
+      "title": "CLARITY Act 상원 절차 중단으로 시장구조 불확실성 지속",
+      "fact": "미 의회 기록상 H.R.3633의 심의 진행을 위한 토론종결이 9월 15일 성립하지 않았고 재고 동의가 제출됐습니다.",
+      "interpretation": "SEC와 CFTC의 역할 구분이 늦어지면서 거래소와 토큰 발행사의 규정 예측 가능성이 낮아졌습니다.",
+      "scenario": "초당적 수정안이 재추진되면 규제 프리미엄이 낮아질 수 있습니다. 교착이 길어지면 기관별 규정과 소송 결과의 영향력이 커집니다.",
       "assets": [
         "BTC",
         "ETH",
         "XRP",
         "거래소"
       ],
-      "sourceTitle": "Congressional Research Service, SEC Proposes Regulation Crypto Assets",
-      "sourceUrl": "https://www.congress.gov/crs-product/LSB11480"
+      "sourceTitle": "Congress.gov, H.R.3633",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3633/all-info"
     },
     {
-      "category": "기관·ETF",
-      "title": "ETF 자금이 BTC·ETH에서 XRP 등으로 확장되는지 점검",
-      "fact": "9월 시장에서는 비트코인과 이더리움뿐 아니라 XRP·솔라나 관련 제도권 상품의 자금 흐름이 주요 관찰 대상이 되고 있습니다.",
-      "interpretation": "ETF 자금이 대형 알트코인으로 확산되면 시장 폭이 넓어질 수 있지만, 자금 유출입 변화는 가격 변동성을 키울 수 있습니다.",
-      "scenario": "주간 순유입이 지속되면 기관 수요 확산 신호가 될 수 있고, 반대로 유출 전환 시 위험선호 둔화를 확인해야 합니다.",
+      "category": "영국 규제·스테이블코인",
+      "title": "FCA 암호자산 인가 신청 창구 9월 30일 개시",
+      "fact": "FCA는 거래 플랫폼, 수탁, 거래 주선, 적격 스테이블코인 발행 등에 적용될 인가 가이드를 발표했습니다. 새 체계는 2027년 10월 25일 시행될 예정입니다.",
+      "interpretation": "AML 등록에서 정식 금융업 인가로 이동하면 자본, 거버넌스, 운영 복원력 기준이 높아집니다.",
+      "scenario": "대형 사업자의 제도권 편입은 신뢰를 높일 수 있지만 비용 부담으로 일부 사업자가 영국 서비스를 축소할 가능성도 있습니다.",
       "assets": [
-        "BTC",
-        "ETH",
-        "XRP",
-        "SOL"
+        "스테이블코인",
+        "거래소",
+        "수탁"
       ],
-      "sourceTitle": "Crypto ETFs Enter a New Phase in September",
-      "sourceUrl": "https://bitcoinfoundation.org/news/bitcoin/crypto-etfs-enter-a-new-phase-in-september-heres-what-investors-should-watch"
-    },
-    {
-      "category": "거시·유동성",
-      "title": "연준 금리 인상 뒤 암호화폐 반등과 레버리지 증가",
-      "fact": "연준 금리 인상 이후 비트코인과 주요 코인이 반등했지만 시장에서는 레버리지 확대와 청산 위험도 함께 지적됐습니다.",
-      "interpretation": "금리 상승에도 가격이 버티는 것은 수요 회복 신호일 수 있으나 파생시장 레버리지가 높으면 작은 충격도 변동성을 확대합니다.",
-      "scenario": "미 국채금리와 달러가 추가 상승하면 위험자산 부담이 커질 수 있으며 ETF 유입과 현물 거래량이 완충 역할을 하는지 확인해야 합니다.",
-      "assets": [
-        "BTC",
-        "ETH",
-        "알트코인"
-      ],
-      "sourceTitle": "Crypto week ahead after Fed rate hike",
-      "sourceUrl": "https://www.coindesk.com/ko/markets/2026/09/21/crypto-week-ahead"
+      "sourceTitle": "UK FCA, 2026-09-16",
+      "sourceUrl": "https://www.fca.org.uk/news/press-releases/crypto-firms-get-guidance-how-new-regime-applies"
     }
   ],
   "analysis": {
-    "fact": "비트코인 점유율은 약 58.9%이며 XRP는 최근 24시간 기준 주요 세 자산 중 상대적으로 강한 흐름을 보였습니다.",
-    "interpretation": "높은 비트코인 점유율은 시장 자금이 여전히 대형 자산에 집중돼 있음을 뜻할 수 있습니다. XRP의 상대 강세는 개별 규제·ETF 기대의 영향을 함께 확인해야 합니다.",
+    "fact": "전체 암호화폐 시가총액은 약 2.93조달러, BTC 점유율은 58.84%입니다. BTC와 ETH는 24시간 약세, XRP는 상대 강세를 보였습니다.",
+    "interpretation": "전일 ETF 유입으로 반등한 뒤 단기 차익 실현이 나타난 모습입니다. 높은 BTC 점유율은 위험선호가 대형 자산에 집중됐음을 시사합니다.",
     "scenarios": [
       {
-        "name": "위험선호 확대",
-        "condition": "달러와 국채금리가 안정되고 ETF 순유입이 지속",
-        "implication": "BTC 이후 ETH·XRP 등으로 거래량이 확산될 가능성"
+        "name": "위험선호 유지",
+        "condition": "달러와 국채금리가 안정되고 ETF 순유입 지속",
+        "implication": "BTC 중심 반등이 ETH·XRP 거래량으로 확산될 가능성"
       },
       {
         "name": "긴축 부담 재부각",
-        "condition": "미 국채금리·달러·유가가 동반 상승",
+        "condition": "미 국채금리·달러·유가 동반 상승",
         "implication": "레버리지 청산과 알트코인 변동성 확대 가능성"
       },
       {
         "name": "규제 분화",
-        "condition": "SEC 규정과 의회 법안의 자산 분류가 달라짐",
-        "implication": "프로젝트·거래소별 차별화 심화 가능성"
+        "condition": "미국 입법 교착과 영국 인가체계 전환이 병행",
+        "implication": "국가와 사업자별 규제 비용 차별화 심화"
       }
     ]
   }
