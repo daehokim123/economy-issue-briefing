@@ -1,57 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T00:33:52.959Z",
-  "observedAt": "2026-09-24T00:33:52.959Z",
+  "updatedAt": "2026-09-24T01:30:20.000Z",
+  "observedAt": "2026-09-24T01:30:20.000Z",
   "source": "CoinGecko",
   "assets": [
     {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "priceUsd": 84331,
-      "priceKrw": 115405576,
-      "change24h": -2.51022,
-      "volume24hUsd": 43620843282,
-      "marketCapUsd": 1694393653661,
+      "priceUsd": 84212,
+      "priceKrw": 115537197,
+      "change24h": -2.73416,
+      "volume24hUsd": 43416563583,
+      "marketCapUsd": 1691671293714,
       "rank": 1,
-      "change24hKrw": -0.95367,
-      "volume24hKrw": 59743308963452,
-      "marketCapKrw": 2318017114084235
+      "change24hKrw": -1.13964,
+      "volume24hKrw": 59566495047705,
+      "marketCapKrw": 2320932874998490
     },
     {
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "priceUsd": 2687.51,
-      "priceKrw": 3678565,
-      "change24h": -2.66962,
-      "volume24hUsd": 17710991823,
-      "marketCapUsd": 328061592741,
+      "priceUsd": 2681.73,
+      "priceKrw": 3679271,
+      "change24h": -2.98083,
+      "volume24hUsd": 17567397296,
+      "marketCapUsd": 327337478494,
       "rank": 2,
-      "change24hKrw": -1.10868,
-      "volume24hKrw": 23811373120809,
-      "marketCapKrw": 448999767807122
+      "change24hKrw": -1.4072,
+      "volume24hKrw": 24102052250963,
+      "marketCapKrw": 449099253430262
     },
     {
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "priceUsd": 1.5,
-      "priceKrw": 2060.04,
-      "change24h": -5.17905,
-      "volume24hUsd": 5494753526,
-      "marketCapUsd": 94540123602,
+      "priceUsd": 1.49,
+      "priceKrw": 2049.72,
+      "change24h": -5.89932,
+      "volume24hUsd": 6182958553,
+      "marketCapUsd": 93905323532,
       "rank": 5,
-      "change24hKrw": -3.37212,
-      "volume24hKrw": 8605139161467,
-      "marketCapKrw": 129520743665214
+      "change24hKrw": -4.37517,
+      "volume24hKrw": 8482872425201,
+      "marketCapKrw": 128835875700450
     }
   ],
   "market": {
-    "totalMarketCapUsd": 2879325719002.7197,
-    "totalVolume24hUsd": 243520975164.79282,
-    "btcDominance": 58.76864373860921,
-    "marketCapChange24h": -4.870455921693409
+    "totalMarketCapUsd": 2873554794779.7812,
+    "totalVolume24hUsd": 242386106873.26538,
+    "btcDominance": 58.804064392153556,
+    "marketCapChange24h": -5.288988033591126
   },
   "charts24h": {
     "bitcoin": [
@@ -154,6 +154,10 @@
       [
         1790209860000,
         84368.2108495166
+      ],
+      [
+        1790213420000,
+        84212
       ]
     ],
     "ethereum": [
@@ -256,6 +260,10 @@
       [
         1790209900000,
         2690.026596308281
+      ],
+      [
+        1790213420000,
+        2681.73
       ]
     ],
     "ripple": [
@@ -358,6 +366,10 @@
       [
         1790209900000,
         1.506688642759274
+      ],
+      [
+        1790213420000,
+        1.49
       ]
     ]
   }

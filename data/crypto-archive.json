@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T00:33:52.959Z",
+  "updatedAt": "2026-09-24T01:30:20.000Z",
   "snapshots": [
     {
       "observedAt": "2026-09-22T20:59:40.000Z",
@@ -1305,48 +1305,59 @@
       }
     },
     {
-      "observedAt": "2026-09-24T00:33:52.959Z",
+      "version": 1,
+      "updatedAt": "2026-09-24T01:30:20.000Z",
+      "observedAt": "2026-09-24T01:30:20.000Z",
       "source": "CoinGecko",
       "assets": [
         {
           "id": "bitcoin",
           "symbol": "BTC",
           "name": "Bitcoin",
-          "priceUsd": 84331,
-          "priceKrw": 115405576,
-          "change24h": -2.51022,
-          "volume24hUsd": 43620843282,
-          "marketCapUsd": 1694393653661,
-          "rank": 1
+          "priceUsd": 84212,
+          "priceKrw": 115537197,
+          "change24h": -2.73416,
+          "volume24hUsd": 43416563583,
+          "marketCapUsd": 1691671293714,
+          "rank": 1,
+          "change24hKrw": -1.13964,
+          "volume24hKrw": 59566495047705,
+          "marketCapKrw": 2320932874998490
         },
         {
           "id": "ethereum",
           "symbol": "ETH",
           "name": "Ethereum",
-          "priceUsd": 2687.51,
-          "priceKrw": 3678565,
-          "change24h": -2.66962,
-          "volume24hUsd": 17710991823,
-          "marketCapUsd": 328061592741,
-          "rank": 2
+          "priceUsd": 2681.73,
+          "priceKrw": 3679271,
+          "change24h": -2.98083,
+          "volume24hUsd": 17567397296,
+          "marketCapUsd": 327337478494,
+          "rank": 2,
+          "change24hKrw": -1.4072,
+          "volume24hKrw": 24102052250963,
+          "marketCapKrw": 449099253430262
         },
         {
           "id": "ripple",
           "symbol": "XRP",
           "name": "XRP",
-          "priceUsd": 1.5,
-          "priceKrw": 2060.04,
-          "change24h": -5.17905,
-          "volume24hUsd": 5494753526,
-          "marketCapUsd": 94540123602,
-          "rank": 5
+          "priceUsd": 1.49,
+          "priceKrw": 2049.72,
+          "change24h": -5.89932,
+          "volume24hUsd": 6182958553,
+          "marketCapUsd": 93905323532,
+          "rank": 5,
+          "change24hKrw": -4.37517,
+          "volume24hKrw": 8482872425201,
+          "marketCapKrw": 128835875700450
         }
       ],
       "market": {
-        "totalMarketCapUsd": 2879325719002.7197,
-        "totalVolume24hUsd": 243520975164.79282,
-        "btcDominance": 58.76864373860921,
-        "marketCapChange24h": -4.870455921693409
+        "totalMarketCapUsd": 2873554794779.7812,
+        "totalVolume24hUsd": 242386106873.26538,
+        "btcDominance": 58.804064392153556,
+        "marketCapChange24h": -5.288988033591126
       },
       "charts24h": {
         "bitcoin": [
@@ -1449,6 +1460,10 @@
           [
             1790209860000,
             84368.2108495166
+          ],
+          [
+            1790213420000,
+            84212
           ]
         ],
         "ethereum": [
@@ -1551,6 +1566,10 @@
           [
             1790209900000,
             2690.026596308281
+          ],
+          [
+            1790213420000,
+            2681.73
           ]
         ],
         "ripple": [
@@ -1653,103 +1672,13 @@
           [
             1790209900000,
             1.506688642759274
+          ],
+          [
+            1790213420000,
+            1.49
           ]
         ]
       }
     }
-  ],
-  "macroContext": {
-    "date": "2026-09-24",
-    "usPolicyRate": "3.75~4.00%",
-    "japanPolicyRate": "1.25%",
-    "koreaBaseRate": "3.00%",
-    "brentUsd": "100달러 아래",
-    "usdKrw": 1366.56,
-    "signals": [
-      {
-        "label": "미 10년물",
-        "value": "5% 상회",
-        "direction": "할인율 부담"
-      },
-      {
-        "label": "일본 금리",
-        "value": "1.25%",
-        "direction": "9월 24일 적용"
-      },
-      {
-        "label": "원/달러 환산",
-        "value": "1366.56원",
-        "direction": "달러 강도 점검"
-      },
-      {
-        "label": "BTC 점유율",
-        "value": "58.83%",
-        "direction": "대형 자산 집중"
-      }
-    ]
-  },
-  "issues": [
-    {
-      "category": "기관·ETF",
-      "title": "미국 비트코인 ETF, 2026년 누적 순유입 전환",
-      "fact": "Bloomberg 집계에 따르면 미국 현물 비트코인 ETF는 8월 19일 이후 약 46억달러가 유입돼 2026년 누적 순유입이 약 3억2000만달러로 전환됐습니다.",
-      "interpretation": "가격 반등과 함께 기관 자금이 돌아왔지만 단기간 유입 집중은 흐름 반전 때 변동성을 키울 수 있습니다.",
-      "scenario": "ETF 순유입과 현물 거래량이 지속되면 BTC 중심 수요가 유지될 수 있습니다. 국채금리 상승이나 대규모 환매가 겹치면 반등 동력이 약해질 수 있습니다.",
-      "assets": [
-        "BTC",
-        "ETF"
-      ],
-      "sourceTitle": "Bloomberg, 2026-09-23",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-23/bitcoin-etf-flows-turn-positive-after-4-6-billion-rebound"
-    },
-    {
-      "category": "미국 규제·토큰화",
-      "title": "SEC, 토큰화 미국 주식 거래에 5년 조건부 예외",
-      "fact": "SEC는 9월 17일 허가형 자동시장조성자와 유동성 풀을 이용하는 토큰화 NMS 주식 거래 플랫폼에 거래소 정의의 조건부 예외를 부여했습니다. 예외는 공표 후 5년 뒤 만료됩니다.",
-      "interpretation": "블록체인 기반 증권 거래의 실험 공간이 열렸지만 허가형 환경, 공시, 기록보존 등 조건이 붙어 전면 자유화와는 다릅니다.",
-      "scenario": "은행·브로커·암호화폐 인프라의 토큰화 투자가 늘 수 있습니다. 운영·수탁·투자자보호 기준 충족이 늦으면 실제 거래 확산은 제한될 수 있습니다.",
-      "assets": [
-        "ETH",
-        "토큰화 증권",
-        "거래소"
-      ],
-      "sourceTitle": "U.S. SEC, 2026-09-17",
-      "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
-    },
-    {
-      "category": "영국 규제·스테이블코인",
-      "title": "FCA 암호자산 인가 신청 창구 9월 30일 개시",
-      "fact": "FCA는 거래 플랫폼, 수탁, 거래 주선, 적격 스테이블코인 발행 등에 적용될 인가 신청 창구를 9월 30일 엽니다.",
-      "interpretation": "AML 등록에서 정식 금융업 인가로 이동하면서 자본, 거버넌스, 운영 복원력 기준이 높아집니다.",
-      "scenario": "대형 사업자의 제도권 편입은 신뢰를 높일 수 있지만 비용 부담으로 일부 사업자가 영국 서비스를 축소할 가능성도 있습니다.",
-      "assets": [
-        "스테이블코인",
-        "거래소",
-        "수탁"
-      ],
-      "sourceTitle": "UK FCA, 2026-09-16",
-      "sourceUrl": "https://www.fca.org.uk/news/press-releases/crypto-firms-get-guidance-how-new-regime-applies"
-    }
-  ],
-  "analysis": {
-    "fact": "전체 암호화폐 시가총액은 약 2.88조달러, BTC 점유율은 58.82%입니다. BTC·ETH·XRP 모두 24시간 하락했고 XRP의 낙폭이 가장 컸습니다.",
-    "interpretation": "ETF 자금은 중기 수요를 지지하지만 미 국채금리와 달러 강세가 단기 유동성 부담으로 작용할 수 있습니다. 높은 BTC 점유율은 위험선호가 대형 자산에 집중됐음을 보여줍니다.",
-    "scenarios": [
-      {
-        "name": "기관 수요 유지",
-        "condition": "ETF 순유입 지속과 미 국채금리 안정",
-        "implication": "BTC 중심 반등이 ETH·XRP 거래량으로 확산될 가능성"
-      },
-      {
-        "name": "긴축 충격 재확대",
-        "condition": "미 10년물·달러·유가 동반 상승",
-        "implication": "레버리지 축소와 알트코인 변동성 확대 가능성"
-      },
-      {
-        "name": "토큰화 인프라 확장",
-        "condition": "SEC 예외 요건을 충족한 플랫폼 출시",
-        "implication": "증권과 퍼블릭 블록체인 인프라의 연결 투자 확대 가능성"
-      }
-    ]
-  }
+  ]
 }
