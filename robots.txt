@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://daehokim123.github.io/economy-issue-briefing/sitemap.xml
+Sitemap: https://product-builder-lecture-6yi.pages.dev/sitemap.xml
